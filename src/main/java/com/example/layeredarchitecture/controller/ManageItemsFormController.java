@@ -48,6 +48,7 @@ public class ManageItemsFormController {
             btnSave.setText(newValue != null ? "Update" : "Save");
             btnSave.setDisable(newValue == null);
 
+
             if (newValue != null) {
                 txtCode.setText(newValue.getCode());
                 txtDescription.setText(newValue.getDescription());
